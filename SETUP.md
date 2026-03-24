@@ -132,3 +132,26 @@ openclaw gateway start --foreground
 Repo: https://github.com/0xmultiserver-crypto/backupai
 
 Last updated: 24 Maret 2026
+
+## VNC Setup (Remote Desktop)
+
+### Start VNC
+```bash
+export HOME=/root
+vncserver :1 -geometry 1280x720 -depth 24
+```
+
+### Stop VNC
+```bash
+vncserver -kill :1
+```
+
+### Connection
+- **Host**: [IP_VPS]:5901
+- **Password**: [vnc password]
+- **Desktop**: XFCE4
+
+### Install Chrome/Chromium
+```bash
+apt-get install chromium-browser
+```
