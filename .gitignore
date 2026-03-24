@@ -19,3 +19,8 @@ npm-debug.log*
 # Temp files
 *.tmp
 *.temp
+
+# Telegram credentials
+*.token
+bot_config.json
+.env.telegram
